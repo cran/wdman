@@ -1,7 +1,7 @@
 Package: wdman
 Type: Package
 Title: 'Webdriver'/'Selenium' Binary Manager
-Version: 0.2.0
+Version: 0.2.1
 Authors@R: c(
     person("John", "Harrison", , "johndharrison0@gmail.com",
     role = c("aut", "cre"), comment = "R package wdman"))
@@ -19,15 +19,15 @@ LazyData: true
 Depends: R (>= 3.2)
 Suggests: testthat, covr, knitr, rmarkdown
 Imports: binman, assertthat, subprocess (>= 0.8.0), yaml, semver(>=
-        0.2.0)
+        0.2.0), utils
 URL: https://github.com/johndharrison/wdman
 URLNote: https://github.com/johndharrison/wdman
 BugReports: https://github.com/johndharrison/wdman/issues
 RoxygenNote: 5.0.1
 VignetteBuilder: knitr
 NeedsCompilation: no
-Packaged: 2017-01-18 11:51:52 UTC; john
+Packaged: 2017-01-19 21:26:17 UTC; john
 Author: John Harrison [aut, cre] (R package wdman)
 Maintainer: John Harrison <johndharrison0@gmail.com>
 Repository: CRAN
-Date/Publication: 2017-01-18 18:07:54
+Date/Publication: 2017-01-20 10:49:49
