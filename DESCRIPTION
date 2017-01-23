@@ -1,7 +1,7 @@
 Package: wdman
 Type: Package
 Title: 'Webdriver'/'Selenium' Binary Manager
-Version: 0.2.1
+Version: 0.2.2
 Authors@R: c(
     person("John", "Harrison", , "johndharrison0@gmail.com",
     role = c("aut", "cre"), comment = "R package wdman"))
@@ -26,8 +26,8 @@ BugReports: https://github.com/johndharrison/wdman/issues
 RoxygenNote: 5.0.1
 VignetteBuilder: knitr
 NeedsCompilation: no
-Packaged: 2017-01-19 21:26:17 UTC; john
+Packaged: 2017-01-23 15:10:50 UTC; john
 Author: John Harrison [aut, cre] (R package wdman)
 Maintainer: John Harrison <johndharrison0@gmail.com>
 Repository: CRAN
-Date/Publication: 2017-01-20 10:49:49
+Date/Publication: 2017-01-23 21:10:11

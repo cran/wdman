@@ -12,7 +12,7 @@
 
 <meta name="author" content="John D Harrison" />
 
-<meta name="date" content="2017-01-19" />
+<meta name="date" content="2017-01-23" />
 
 <title>wdman: Basics</title>
 
@@ -32,7 +32,7 @@
 
 <h1 class="title toc-ignore">wdman: Basics</h1>
 <h4 class="author"><em>John D Harrison</em></h4>
-<h4 class="date"><em>2017-01-19</em></h4>
+<h4 class="date"><em>2017-01-23</em></h4>
 
 
 <div id="TOC">
@@ -45,7 +45,6 @@
 <li><a href="#selenium-standalone">Selenium Standalone</a><ul>
 <li><a href="#running-the-selenium-binary">Running the Selenium binary</a></li>
 <li><a href="#available-browsers">Available browsers</a></li>
-<li><a href="#issues-with-windows-and-firefoxgeckodriver"><del>Issues with Windows and Firefox/GeckoDriver</del></a></li>
 </ul></li>
 <li><a href="#chrome-driver">Chrome Driver</a></li>
 <li><a href="#phantomjs">PhantomJS</a></li>
@@ -194,12 +193,6 @@ selServ$process
 <h3>Available browsers</h3>
 <p>By default the <code>selenium</code> function includes paths to chromedriver/geckodriver/ phantomjs so that the Chrome/Firefox and PhantomJS browsers are available respectively. All versions (chromever, geckover etc) are given as “latest”. If the user passes a value of NULL for any driver it will be excluded.</p>
 <p>On Windows operating systems the option to included the Internet Explorer driver is also given. This is set to <code>iedrver = NULL</code> so not ran by default. Set it to <code>iedrver = &quot;latest&quot;</code> or a specific version string to include it on your Windows.</p>
-</div>
-<div id="issues-with-windows-and-firefoxgeckodriver" class="section level3">
-<h3><del>Issues with Windows and Firefox/GeckoDriver</del></h3>
-<p>This issue is fixed now.</p>
-<p><del>To run the binaries related to the Selenium/webdriver projects <code>wdman</code> uses the R package <code>subprocess</code>. Currently the windows version of this package uses blocking pipes when it instantiates a process. The causes issues with firefox/geckodriver when called from selenium. A “shim” is required as the stderr pipe is blocking and firefox/geckodriver waits for the pipe to free.</del></p>
-<p><del>An example of implementing this shim for windows can be seen in the <a href="https://github.com/ropensci/RSelenium">Rselenium</a> package. The <code>rsDriver</code> function currently implements such a shim. It basically clears the error pipe so the firefox/geckodriver can finish its startup.</del></p>
 </div>
 </div>
 <div id="chrome-driver" class="section level2">
