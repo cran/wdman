@@ -4,7 +4,7 @@
 
 <head>
 
-<meta charset="utf-8">
+<meta charset="utf-8" />
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 <meta name="generator" content="pandoc" />
 
@@ -12,7 +12,7 @@
 
 <meta name="author" content="John D Harrison" />
 
-<meta name="date" content="2017-01-23" />
+<meta name="date" content="2018-07-21" />
 
 <title>wdman: Basics</title>
 
@@ -32,7 +32,7 @@
 
 <h1 class="title toc-ignore">wdman: Basics</h1>
 <h4 class="author"><em>John D Harrison</em></h4>
-<h4 class="date"><em>2017-01-23</em></h4>
+<h4 class="date"><em>2018-07-21</em></h4>
 
 
 <div id="TOC">
@@ -58,7 +58,7 @@
 <div id="introduction" class="section level2">
 <h2>Introduction</h2>
 <p><code>wdman</code> (Webdriver Manager) is an R package that allows the user to manage the downloading/running of third party binaries relating to the webdriver/selenium projects. The package was inspired by a similar node package <a href="https://www.npmjs.com/package/webdriver-manager">webdriver-manager</a>.</p>
-<p>The checking/downloading of binaries is handled by the <a href="https://github.com/johndharrison/binman">binman</a> package and the running of the binaries as processes is handled by the <a href="https://github.com/lbartnik/subprocess">subprocess</a> package.</p>
+<p>The checking/downloading of binaries is handled by the <a href="https://github.com/ropensci/binman">binman</a> package and the running of the binaries as processes is handled by the <a href="https://github.com/lbartnik/subprocess">subprocess</a> package.</p>
 <p>The <code>wdman</code> package currently manages the following binaries:</p>
 <ul>
 <li><a href="http://selenium-release.storage.googleapis.com/index.html">Selenium standalone binary</a></li>
@@ -124,7 +124,7 @@ selServ$stop()
 </div>
 <div id="check-for-updates" class="section level3">
 <h3>Check for updates</h3>
-<p>Each driver function has a <code>check</code> argument. If <code>check= TRUE</code> the function will liaise with the driver repository for any updates. If new driver versions are available these will be downloaded. The <a href="https://github.com/johndharrison/binman">binman</a> package is used for this purpose.</p>
+<p>Each driver function has a <code>check</code> argument. If <code>check= TRUE</code> the function will liaise with the driver repository for any updates. If new driver versions are available these will be downloaded. The <a href="https://github.com/ropensci/binman">binman</a> package is used for this purpose.</p>
 </div>
 <div id="command-line-output" class="section level3">
 <h3>Command line output</h3>
@@ -303,7 +303,7 @@ ieDrv$process
 <h2>Issues and problems</h2>
 <p>If you experience issues or problems running one of the drivers/functions please try running the command in a terminal on your OS initially.</p>
 <p>You can access the command to run by using the <code>retcommand</code> argument in each of the main package functions.</p>
-<p>If you continue to have problems consider posting an issue at <a href="https://github.com/johndharrison/wdman/issues" class="uri">https://github.com/johndharrison/wdman/issues</a></p>
+<p>If you continue to have problems consider posting an issue at <a href="https://github.com/ropensci/wdman/issues" class="uri">https://github.com/ropensci/wdman/issues</a></p>
 </div>
 
 
@@ -313,7 +313,7 @@ ieDrv$process
   (function () {
     var script = document.createElement("script");
     script.type = "text/javascript";
-    script.src  = "https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML";
+    script.src  = "https://mathjax.rstudio.com/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML";
     document.getElementsByTagName("head")[0].appendChild(script);
   })();
 </script>

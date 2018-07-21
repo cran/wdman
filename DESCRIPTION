@@ -1,10 +1,12 @@
 Package: wdman
 Type: Package
 Title: 'Webdriver'/'Selenium' Binary Manager
-Version: 0.2.2
+Version: 0.2.4
 Authors@R: c(
     person("John", "Harrison", , "johndharrison0@gmail.com",
-    role = c("aut", "cre"), comment = "R package wdman"))
+    role = "aut", comment = "original author"),
+    person("Ju Yeong", "Kim", , "jkim2345@fredhutch.org",
+    role = "cre", comment = "rOpenSci maintainer"))
 Description: There are a number of binary files associated with the
     'Webdriver'/'Selenium' project (see <http://www.seleniumhq.org/download/>,
     <https://sites.google.com/a/chromium.org/chromedriver/>,
@@ -20,14 +22,15 @@ Depends: R (>= 3.2)
 Suggests: testthat, covr, knitr, rmarkdown
 Imports: binman, assertthat, subprocess (>= 0.8.0), yaml, semver(>=
         0.2.0), utils
-URL: https://github.com/johndharrison/wdman
-URLNote: https://github.com/johndharrison/wdman
-BugReports: https://github.com/johndharrison/wdman/issues
-RoxygenNote: 5.0.1
+URL: https://github.com/ropensci/wdman
+URLNote: https://github.com/ropensci/wdman
+BugReports: https://github.com/ropensci/wdman/issues
+RoxygenNote: 6.0.1
 VignetteBuilder: knitr
 NeedsCompilation: no
-Packaged: 2017-01-23 15:10:50 UTC; john
-Author: John Harrison [aut, cre] (R package wdman)
-Maintainer: John Harrison <johndharrison0@gmail.com>
+Packaged: 2018-07-21 17:32:38 UTC; jkim
+Author: John Harrison [aut] (original author),
+  Ju Yeong Kim [cre] (rOpenSci maintainer)
+Maintainer: Ju Yeong Kim <jkim2345@fredhutch.org>
 Repository: CRAN
-Date/Publication: 2017-01-23 21:10:11
+Date/Publication: 2018-07-21 21:50:03 UTC

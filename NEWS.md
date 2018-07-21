@@ -1,3 +1,11 @@
+# wdman 0.2.4
+
+* Fixed tests for CRAN re-submission.
+
+# wdman 0.2.3
+
+* Fixed issue with checking for JAVA (thanks Michal Libura #15)
+
 # wdman 0.2.2
 
 * Moved unix based systems to write pipes to file.
