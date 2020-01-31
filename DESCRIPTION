@@ -1,7 +1,7 @@
 Package: wdman
 Type: Package
 Title: 'Webdriver'/'Selenium' Binary Manager
-Version: 0.2.4
+Version: 0.2.5
 Authors@R: c(
     person("John", "Harrison", , "johndharrison0@gmail.com",
     role = "aut", comment = "original author"),
@@ -20,17 +20,16 @@ Encoding: UTF-8
 LazyData: true
 Depends: R (>= 3.2)
 Suggests: testthat, covr, knitr, rmarkdown
-Imports: binman, assertthat, subprocess (>= 0.8.0), yaml, semver(>=
-        0.2.0), utils
-URL: https://github.com/ropensci/wdman
+Imports: binman, assertthat, processx, yaml, semver(>= 0.2.0), utils
+URL: https://docs.ropensci.org/wdman, https://github.com/ropensci/wdman
 URLNote: https://github.com/ropensci/wdman
 BugReports: https://github.com/ropensci/wdman/issues
-RoxygenNote: 6.0.1
+RoxygenNote: 7.0.2
 VignetteBuilder: knitr
 NeedsCompilation: no
-Packaged: 2018-07-21 17:32:38 UTC; jkim
+Packaged: 2020-01-31 21:54:18 UTC; jkim
 Author: John Harrison [aut] (original author),
   Ju Yeong Kim [cre] (rOpenSci maintainer)
 Maintainer: Ju Yeong Kim <jkim2345@fredhutch.org>
 Repository: CRAN
-Date/Publication: 2018-07-21 21:50:03 UTC
+Date/Publication: 2020-01-31 22:30:02 UTC
