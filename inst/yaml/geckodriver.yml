@@ -6,9 +6,11 @@ predlfunction:
     - linux32
     - linux64
     - macos
+    - macos-aarch64
     - win32
     - win64
     history: 3
+    fileregex: "\\.(gz|zip)$"
     versionregex:
     - "^v"
     - ""
